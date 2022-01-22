@@ -41,9 +41,6 @@ head(variantesCovid)
 ### Renomeando o cabeçalho das colunas:
 
 ```{r}
-
-```
-```{r}
 names(variantesCovid) <- c("Pais", "Data", "Variante", "NumeroCasos", "PercentualCasos", "TotalCasos")
 head(variantesCovid)
 ```
